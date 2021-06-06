@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--Ajuda para deixar no responsivo-->
+    <link rel="stylesheet" href="style2.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,600;0,700;1,300&display=swap" rel="stylesheet">
+    <title>Contato</title>
+</head>
+<body>
+    <main>
+    <header class="topo">
+        <nav>
+           <a href="index.html"><img src="imagens/logo2.png" height="105" alt=""></a>
+           <div class="links">
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="lab.html">Laboratório</a></li>
+                    <li><a href="kitchen.html">Cantina</a></li>
+                    <li><a href="contact.html">Contato</a></li>
+                </ul>
+           </div>
+        </nav>
+    </header>
+
+    <section>
+        <form name="form_contato" method="post" action=""> <!--Pesquisar metodo post e get-->
+            <p>
+                <fieldset>
+                   <legend>Formulário:</legend>
+                   <p>Preencha essas informações para entrar em contato com a gente :)</p> 
+                <p>
+                <label>Nome</label>
+            
+                <input type="text" name="nome" id="nome" size="30" placeholder="Digite seu nome" required autofocus maxlength="10">
+            </p>
+    
+            <p>
+                <label>Sobrenome</label>
+            
+                <input type="text" name="sobrenome" id="sobrenome" size="30" placeholder="Agora, seu sobrenome completo" required autofocus maxlength="80">
+    
+            </p>
+
+            <p>
+                <label>Email:</label>
+                <input type="email" name="email" id="email" size="30" placeholder="Digite seu e-mail" required autofocus maxlength="60">
+                
+                
+            </p>
+
+            <p>
+                <label>Telefone: </label>
+                <input type="tele" name="tel" size="50" required autofocus maxlength="60"> 
+            </p>
+
+
+
+            <button class="botao" type="submit">Concluído</button>
+
+
+        </form>
+        </section>
+    </main>
+    </body>
+    </html>
